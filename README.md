@@ -7,104 +7,88 @@ A curated list of tools for database schema visualization, modeling, and diagram
 ### [dbdiagram.io](https://dbdiagram.io/)
 - **Features**: ERD creation, table/column definition, relationship definition
 - **DSL**: [DBML (Database Markup Language)](https://dbml.dbdiagram.io/home/)
-- **Schema Import**: MySQL, PostgreSQL, schema.rb
+- **Schema Import**: MySQL, PostgreSQL, SQL Server, Snowflake, BigQuery, schema.rb
+- **Schema Export**: MySQL, PostgreSQL, SQL Server, Oracle
 - **Database Connection**: Not supported
-- **Reverse Engineering**: MySQL, PostgreSQL, schema.rb
-- **Forward Engineering**: SQL DDL
 - **Collaboration**: Link sharing (paid plan)
 - **Visualization**: Drag & drop table positioning, auto-layout
-- **Data Types**: MySQL, PostgreSQL
 - **Pricing**: Free (up to 10 diagrams), Paid ($14+/month)
 - **Import/Export**: PNG, PDF, MySQL, PostgreSQL
 
 ### [drawSQL](https://drawsql.app/)
 - **Features**: ERD creation, table/column definition, relationship definition
 - **DSL**: None
-- **Schema Import**: SQL
+- **Schema Import**: MySQL, PostgreSQL, SQL Server
+- **Schema Export**: MySQL, PostgreSQL, SQL Server, Laravel Migrations
 - **Database Connection**: Supported
-- **Reverse Engineering**: SQL
-- **Forward Engineering**: SQL DDL, Laravel Migrations
 - **Collaboration**: Team collaboration, link sharing, embed links
 - **Visualization**: 200+ templates
-- **Data Types**: MySQL, PostgreSQL, SQL Server
 - **Pricing**: Free (up to 15 tables), Paid ($19+/month)
 - **Import/Export**: SQL, JSON, images
 
 ### [drawDB](https://www.drawdb.app/)
 - **Features**: ERD creation, table/column definition, relationship definition, TODO management, timeline
 - **DSL**: None
-- **Schema Import**: SQL
+- **Schema Import**: MySQL, PostgreSQL
+- **Schema Export**: MySQL, PostgreSQL, SQLite, MariaDB, SQL Server, JSON, Markdown
 - **Database Connection**: Not supported
-- **Reverse Engineering**: SQL
-- **Forward Engineering**: SQL DDL
 - **Collaboration**: Link sharing
 - **Visualization**: Customizable workspace, presentation mode
-- **Data Types**: MySQL, PostgreSQL, SQLite, MariaDB, SQL Server
 - **Pricing**: Free, Open Source
 - **Import/Export**: JSON, images, SQL DDL, Markdown
 
 ### [Vertabelo](https://vertabelo.com/)
 - **Features**: ERD creation, table/column definition, relationship definition
 - **DSL**: None
-- **Schema Import**: SQL
+- **Schema Import**: SQL, XML
+- **Schema Export**: SQL, XML
 - **Database Connection**: Supported
-- **Reverse Engineering**: Supported
-- **Forward Engineering**: SQL DDL
 - **Collaboration**: Team accounts, sharing, access control
 - **Visualization**: Snowflake schema, star schema, zoom, visual search
-- **Data Types**: SQL Server, PostgreSQL, MySQL, Oracle, SQLite, Amazon Redshift
 - **Pricing**: Free (limited models), Paid (user-based pricing)
 - **Import/Export**: SQL, PNG
 
 ### [Azimutt](https://azimutt.app/)
 - **Features**: ERD creation, table/column definition, relationship definition, data preview, query execution
 - **DSL**: [AML (Azimutt Markup Language)](https://azimutt.app/docs/aml)
-- **Schema Import**: SQL, Prisma, JSON
+- **Schema Import**: SQL, Prisma, AML, JSON
+- **Schema Export**: AML, SQL (PostgreSQL), JSON, Markdown, Mermaid
 - **Database Connection**: Supported
-- **Reverse Engineering**: Database connection, SQL, Prisma, JSON
-- **Forward Engineering**: SQL, AML
 - **Collaboration**: Supported
 - **Visualization**: Multi-layout, supports up to 1000 tables
-- **Data Types**: MySQL, PostgreSQL, SQLite, MongoDB
 - **Pricing**: Free (online-only, limited features), Paid (€9+/month), On-premise
 - **Import/Export**: SQL, JSON, AML
 
 ### [QuickDBD](https://www.quickdatabasediagrams.com/)
 - **Features**: ERD creation, table/column definition, relationship definition
 - **DSL**: Simple text-based DSL
-- **Schema Import**: MySQL, Oracle, SQL Server
+- **Schema Import**: MySQL/MariaDB, Oracle, SQL Server
+- **Schema Export**: ANSI SQL, MySQL/MariaDB, Oracle (12c+), PostgreSQL, SQL Server
 - **Database Connection**: Not supported
-- **Reverse Engineering**: MySQL, Oracle, SQL Server
-- **Forward Engineering**: SQL DDL
 - **Collaboration**: Online collaboration
 - **Visualization**: Real-time preview
-- **Data Types**: MySQL, Oracle, SQL Server
 - **Pricing**: Free (1 diagram, up to 10 tables), Paid ($14+/month)
 - **Import/Export**: PDF, SQL, CSV
 
 ### [ERD Plus](https://erdplus.com/)
 - **Features**: ERD creation, table/column definition, relationship definition
 - **DSL**: None
-- **Schema Import**: Not supported
+- **Schema Import**: JSON, SQL
+- **Schema Export**: JSON, SQL
 - **Database Connection**: Not supported
-- **Reverse Engineering**: Not supported
-- **Forward Engineering**: SQL DDL
 - **Collaboration**: Not supported
 - **Visualization**: Chen notation, conceptual models, physical models, star schema
-- **Data Types**: Oracle, MySQL, SQL Server, PostgreSQL, Teradata, IBM DB2, MS Access
 - **Pricing**: Free
 - **Import/Export**: SQL, PNG
 
 ### [SqlDBM](https://sqldbm.com/Home/)
 - **Features**: ERD creation, table/column definition, relationship definition, views, stored procedures
 - **DSL**: None
-- **Schema Import**: SQL
+- **Schema Import**: SQL, Excel
+- **Schema Export**: SQL, Excel
 - **Database Connection**: Supports Snowflake, Azure Synapse
-- **Reverse Engineering**: Database connection, SQL
-- **Forward Engineering**: SQL DDL
 - **Collaboration**: Team collaboration, comments, tagging
 - **Visualization**: Conceptual models, physical models, views, stored procedures
-- **Data Types**: Snowflake, Azure Synapse, AlloyDB, Snowflake VARIANT data type
 - **Pricing**: Free, Paid (user-based pricing), Enterprise
 - **Import/Export**: SQL DDL, YAML, Confluence, Jira integration
 
@@ -120,7 +104,8 @@ AML is a DSL used in Azimutt, a database visualization tool. It allows users to 
 - Concise and highly readable
 
 #### Tools
-- Azimutt (available in paid plans)
+- **Azimutt**: available in paid plans
+- **VS Code extensions**: Design database schema and view ERD
 
 ### [DBML (Database Markup Language)](https://dbml.dbdiagram.io/home/)
 DBML is an open-source DSL for defining and documenting database schemas. It features a simple, consistent, and human-readable syntax. DBML was designed to address common challenges in large and complex software projects, such as understanding database structures, comprehending table relationships, and dealing with outdated ERDs or SQL DDL scripts. It also supports conversion between DBML and SQL through various tools and integrations.
