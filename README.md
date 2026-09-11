@@ -81,6 +81,17 @@ A curated list of tools for database schema visualization, modeling, and diagram
 - **Pricing**: Free
 - **Import/Export**: SQL, PNG
 
+### [Schema3D](https://schema3d.com/)
+- **Features**: Browser-only 3D schema visualization, paste SQL / T-SQL / Mermaid ER, shareable URLs
+- **DSL**: Mermaid ER
+- **Schema Import**: SQL, T-SQL, Mermaid ER
+- **Schema Export**: Shareable URL
+- **Database Connection**: Not supported
+- **Collaboration**: Link sharing
+- **Visualization**: Interactive 3D exploration
+- **Pricing**: Free, Open Source
+- **Import/Export**: SQL, T-SQL, Mermaid ER; share via URL
+
 ### [SqlDBM](https://sqldbm.com/Home/)
 - **Features**: ERD creation, table/column definition, relationship definition, views, stored procedures
 - **DSL**: None
